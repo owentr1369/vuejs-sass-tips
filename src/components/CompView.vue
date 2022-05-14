@@ -11,7 +11,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../assets/_shared.scss";
 h3 {
   color: $red;
 }
