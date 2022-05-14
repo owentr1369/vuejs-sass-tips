@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <CompView />
+  <h4>SASS</h4>
 </template>
 
 <script>
@@ -16,4 +17,8 @@ export default {
 
 <style lang='scss' scoped>
 @import "@/assets/_shared.scss";
+
+h4 {
+  color: $blue;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello Vue</h1>
+  <h3>Hello Vue</h3>
 </template>
 
 <script>
@@ -10,5 +10,9 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style lang="scss" scoped>
+@import "../assets/_shared.scss";
+h3 {
+  color: $red;
+}
+</style> 
